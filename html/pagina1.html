@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/pagina1.css">
+    <script src="scripts/pagina1.js" defer></script>
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form id="formulario">
+        <h1>Formulário</h1>
+
+        <label for="iname">Seu Nome:</label>
+        <input type="text" name="name" id="iname" placeholder="Digite seu nome" autocomplete="off" required>
+
+        <label for="iage">Sua Idade:</label>
+        <input type="number" name="age" id="iage" placeholder="Digite sua idade" autocomplete="off" required>
+
+        <button type="submit" id="ibutton" onclick="pegarDados()">Enviar Formulário</button>
+    </form>
+</body>
+
+</html>
